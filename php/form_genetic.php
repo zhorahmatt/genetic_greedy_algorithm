@@ -22,7 +22,7 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Greedy Vs Genetic Algortihm</h1>
+      <h1 class="header center orange-text">Genetic Algortihm</h1>
       <div class="row center">
           <div class="row">
             <form class="col s12" method="post" action="/genetic_algorithm/php/proses_genetic.php" >

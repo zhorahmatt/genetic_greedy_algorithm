@@ -27,12 +27,12 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Greedy Vs Genetic Algortihm</h1>
+      <h1 class="header center orange-text">Genetic Algortihm</h1>
       <div class="row center">
           <div class="row">
               <?php
               $nama=$_POST ['name'];
-              echo "<form class='cols12' action='proses_genetic2.php' method='post'>";
+              echo "<form class='cols12' action='hasil_genetic.php' method='post'>";
               $i=0;
               do {
                 //   echo "<input type='text' name='nama$i' placeholder='namabarang $i'><br><br>";
@@ -59,8 +59,11 @@
                 echo "<label for='name'>Kapasitas</label>";
               echo "</div>";
               echo "<br>";
-              echo "Proses : ";
-              echo "<input type='submit' name='submit' value='Greedy'>";
+              //echo "Proses : ";
+              //echo "<input type='submit' name='submit' value='Greedy'>";
+              echo "<div class='row center'>";
+                  echo "<input type='submit' name='submit' class='btn-large waves-light orange' value='PROSES'>";
+              echo "</div>";
               echo "</form>";
               ?>
   </div>
